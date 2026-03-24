@@ -1,303 +1,361 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="pt-BR"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Confidential | Herbert Guimarães - Engenharia de Negócios</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Roboto+Condensed:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              "noir-deep": "#0a0c10",
-              "noir-slate": "#1a1e26",
-              "noir-blue": "#242b38",
-              "accent-gold": "#c5a059",
-              "accent-bronze": "#8e6f3e",
-              "text-muted": "#94a3b8",
-              "text-bright": "#e2e8f0"
-            },
-            fontFamily: {
-              "headline": ["Playfair Display", "serif"],
-              "body": ["Roboto Condensed", "sans-serif"]
-            }
+<html class="scroll-smooth" lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Confidential | Herbert Guimarães - Engenharia de Negócios</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Roboto+Condensed:wght@300;400;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "noir-deep": "#0a0c10",
+            "noir-slate": "#1a1e26",
+            "noir-blue": "#242b38",
+            "accent-gold": "#c5a059",
+            "accent-bronze": "#8e6f3e",
+            "text-muted": "#94a3b8",
+            "text-bright": "#e2e8f0"
           },
+          fontFamily: {
+            "headline": ["Playfair Display", "serif"],
+            "body": ["Roboto Condensed", "sans-serif"]
+          }
         },
-      }
-    </script>
+      },
+    }
+  </script>
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="selection:bg-accent-gold/30 bg-noir-deep text-text-muted font-body tracking-tight">
-<div class="fixed inset-0 grain-overlay z-[100]"></div>
-<header class="fixed top-0 w-full z-50 mix-blend-difference">
-<nav class="flex justify-between items-center max-w-7xl mx-auto px-10 py-8">
-<div class="text-xl font-headline italic text-accent-gold tracking-widest uppercase">
-                Demanda10x
-            </div>
-<div class="hidden md:flex gap-12 items-center text-[10px] tracking-[0.3em] uppercase font-bold text-white/60">
-<a class="hover:text-accent-gold transition-colors" href="#systems">01 System Analysis</a>
-<a class="hover:text-accent-gold transition-colors" href="#engineering">02 The Arsenal</a>
-<a class="hover:text-accent-gold transition-colors" href="#about">03 Intelligence</a>
-<a class="ml-6 border-b border-accent-gold pb-1 text-accent-gold hover:text-white transition-colors" href="#">
-                    Request Consultation
-                </a>
-</div>
-</nav>
-</header>
-<main>
-<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
-<div class="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-noir-deep via-transparent to-noir-deep z-10"></div>
-<div class="max-w-7xl mx-auto w-full px-10 grid grid-cols-1 lg:grid-cols-12 gap-0 relative z-20">
-<div class="lg:col-span-7 flex flex-col justify-center">
-<div class="mb-6 flex items-center gap-4">
-<div class="h-[1px] w-12 bg-accent-gold"></div>
-<span class="text-accent-gold font-bold tracking-[0.5em] uppercase text-[10px]">Case File: Business Engineering</span>
-</div>
-<h1 class="font-headline text-5xl md:text-8xl text-text-bright mb-10 leading-[0.95] italic">
-                        Herbert Guimarães. <br/>
-<span class="not-italic text-accent-gold/90">Engenharia de Negócios.</span>
-</h1>
-<p class="text-xl md:text-2xl text-text-muted max-w-xl mb-12 font-light leading-relaxed border-l border-white/10 pl-8">
-                        Sistemas de Aquisição, Automação e Autoridade para quem cansou de amadorismo digital.
-                    </p>
-<div class="flex flex-col sm:flex-row gap-8">
-<a href="http://wa.me/5537999882157" target="_blank" class="inline-block bg-accent-gold text-noir-deep px-12 py-5 text-xs font-bold tracking-[0.2em] uppercase hover:bg-white transition-all duration-500 shadow-2xl">
-                            CONSTRUIR MINHA MÁQUINA DE VENDAS
-                        </a>
-</div>
-</div>
-<div class="lg:col-span-5 relative mt-20 lg:mt-0">
-<div class="relative z-10 cinematic-shadow border border-white/5 p-2 bg-noir-slate/40 backdrop-blur-sm">
-<img alt="Professional portrait of Herbert Guimarães" class="w-full grayscale opacity-70 hover:opacity-100 transition-opacity duration-1000" src="herbert_perfil.jpg"/>
-</div>
-<div class="absolute -bottom-10 -left-10 z-20 p-8 bg-accent-gold/90 text-noir-deep max-w-[280px]">
-<p class="font-headline italic text-lg leading-tight">"O marketing sem engenharia é apenas barulho. O sistema é o que escala."</p>
-</div>
-</div>
-</div>
-</section>
-<section class="py-40 px-10 relative" id="systems">
-<div class="max-w-7xl mx-auto">
-<div class="flex flex-col lg:flex-row gap-20 items-baseline mb-32">
-<div class="lg:w-1/2">
-<h2 class="font-headline text-5xl md:text-7xl text-text-bright italic mb-10">O Diagnóstico do Engenheiro</h2>
-<div class="w-40 h-[1px] bg-accent-gold mb-10"></div>
-</div>
-<div class="lg:w-1/2">
-<p class="text-2xl text-text-muted leading-relaxed font-light italic">
-                            A maioria dos negócios falha não por falta de esforço, mas por falha estrutural. Sem um sistema previsível, você não tem uma empresa; você tem um emprego de alto estresse.
-                        </p>
-<span class="block mt-8 font-mono text-[10px] tracking-widest uppercase text-accent-gold/50">System Integrity Assessment: Protocol 1.0</span>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-b border-white/5">
-<div class="group p-16 border-r border-white/5 hover:bg-noir-slate transition-colors duration-700">
-<span class="block font-headline text-accent-gold text-4xl italic mb-12">01</span>
-<h3 class="font-headline text-3xl text-text-bright mb-6">Invisibilidade Digital</h3>
-<p class="text-text-muted leading-relaxed mb-8 font-light">
-                            Sua marca é um segredo bem guardado. Sem alcance estratégico, sua expertise é desperdiçada em um vácuo digital.
-                        </p>
-<span class="material-symbols-outlined text-accent-gold opacity-30 text-5xl">visibility_off</span>
-</div>
-<div class="group p-16 border-r border-white/5 hover:bg-noir-slate transition-colors duration-700 bg-noir-slate/20 stagger-item-2 cinematic-shadow">
-<span class="block font-headline text-accent-gold text-4xl italic mb-12">02</span>
-<h3 class="font-headline text-3xl text-text-bright mb-6">Vazamento de Leads</h3>
-<p class="text-text-muted leading-relaxed mb-8 font-light">
-                            Você gasta em tráfego, mas sua estrutura não retém. Cada lead perdido é um erro de engenharia no seu funil de vendas.
-                        </p>
-<span class="material-symbols-outlined text-accent-gold opacity-30 text-5xl">leak_add</span>
-</div>
-<div class="group p-16 hover:bg-noir-slate transition-colors duration-700">
-<span class="block font-headline text-accent-gold text-4xl italic mb-12">03</span>
-<h3 class="font-headline text-3xl text-text-bright mb-6">Teto de Vidro</h3>
-<p class="text-text-muted leading-relaxed mb-8 font-light">
-                            Você atingiu o limite da sua capacidade operacional. Sem automação, o crescimento se torna seu pior inimigo.
-                        </p>
-<span class="material-symbols-outlined text-accent-gold opacity-30 text-5xl">lock_open</span>
-</div>
-</div>
-</div>
-</section>
-<section class="py-40 px-10 bg-noir-slate" id="engineering">
-<div class="max-w-7xl mx-auto">
-<div class="flex flex-col items-center mb-32 text-center">
-<span class="text-accent-gold font-bold tracking-[0.5em] uppercase text-[10px] mb-6">Asset Catalog</span>
-<h2 class="font-headline text-5xl md:text-8xl text-text-bright italic mb-6">O Arsenal de Soluções</h2>
-<p class="text-text-muted max-w-2xl text-xl font-light">Projetos sob medida para estruturar o crescimento do seu negócio com precisão matemática.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-<div class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
-<div class="flex justify-between items-start mb-8 min-h-[80px]">
-<h3 class="font-headline text-3xl text-text-bright italic pr-4">1. Engenharia de Aquisição</h3>
-<span class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">precision_manufacturing</span>
-</div>
-<p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Sistemas de tráfego pago baseados em dados, não em palpites. Foco total em ROI e CPA previsível.</p>
-<div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
-<span class="material-symbols-outlined text-sm">circle</span>
-<span>Output: Performance Dashboard</span>
-</div>
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
-<span class="material-symbols-outlined text-sm text-accent-gold">person</span>
-<span>Profile: Scalable Business</span>
-</div>
-</div>
-</div>
-<div class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
-<div class="flex justify-between items-start mb-8 min-h-[80px]">
-<h3 class="font-headline text-3xl text-text-bright italic pr-4">2. Máquina de Vendas Local</h3>
-<span class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">location_on</span>
-</div>
-<p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Dominação da região geográfica com presença digital ultra-segmentada para negócios físicos de alto ticket.</p>
-<div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
-<span class="material-symbols-outlined text-sm">circle</span>
-<span>Output: Local Capture Engine</span>
-</div>
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
-<span class="material-symbols-outlined text-sm text-accent-gold">person</span>
-<span>Profile: High-Ticket Clinics</span>
-</div>
-</div>
-</div>
-<div class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
-<div class="flex justify-between items-start mb-8 min-h-[80px]">
-<h3 class="font-headline text-3xl text-text-bright italic pr-4">3. Consultoria 'Negócio Expert'</h3>
-<span class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">architecture</span>
-</div>
-<p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Análise 360 do seu modelo de negócio para destravar gargalos de operação e precificação.</p>
-<div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
-<span class="material-symbols-outlined text-sm">circle</span>
-<span>Output: 12-Month Strategic Plan</span>
-</div>
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
-<span class="material-symbols-outlined text-sm text-accent-gold">person</span>
-<span>Profile: High-Ticket Mentors</span>
-</div>
-</div>
-</div>
-<div class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
-<div class="flex justify-between items-start mb-8 min-h-[80px]">
-<h3 class="font-headline text-3xl text-text-bright italic pr-4">4. Sistema de Autoridade</h3>
-<span class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">verified</span>
-</div>
-<p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Criação de ecossistema de conteúdo e prova social que vende antes mesmo do primeiro contato.</p>
-<div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
-<span class="material-symbols-outlined text-sm">circle</span>
-<span>Output: Omnichannel Strategy</span>
-</div>
-<div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
-<span class="material-symbols-outlined text-sm text-accent-gold">person</span>
-<span>Profile: Elite Professionals</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-40 px-10 relative overflow-hidden" id="about">
-<div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-32 items-center">
-<div class="lg:w-1/2 relative">
-<div class="relative w-full aspect-[4/5]">
-    <!-- Terceira Foto (Fundo, Cima Direita) -->
-    <div class="absolute top-[5%] right-[5%] w-[65%] aspect-[4/5] bg-noir-slate border border-white/5 p-2 md:p-3 rotate-[8deg] cinematic-shadow z-10 hover:z-40 transition-transform duration-700 hover:scale-105 hover:rotate-0">
-        <img alt="Engenharia de Negócios 3" class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition-all duration-700" src="herbert_atuando%202.jpg"/>
-    </div>
-    
-    <!-- Segunda Foto (Meio, Esquerda) -->
-    <div class="absolute top-[20%] left-[0%] w-[65%] aspect-[4/5] bg-noir-slate border border-white/5 p-2 md:p-3 -rotate-[6deg] cinematic-shadow z-20 hover:z-40 transition-transform duration-700 hover:scale-105 hover:rotate-0">
-        <img alt="Engenharia de Negócios 2" class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition-all duration-700" src="herbert_atuando.jpg"/>
-    </div>
 
-    <!-- Primeira Foto (Frente, Embaixo Centro) -->
-    <div class="absolute bottom-[0%] left-[15%] w-[65%] aspect-[4/5] bg-noir-slate border border-white/5 p-2 md:p-3 rotate-[2deg] cinematic-shadow z-30 hover:z-40 transition-transform duration-700 hover:scale-105 hover:rotate-0">
-        <img alt="Engenharia de Negócios 1" class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition-all duration-700" src="herbert_atuando%201.jpg"/>
+<body class="selection:bg-accent-gold/30 bg-noir-deep text-text-muted font-body tracking-tight">
+  <div class="fixed inset-0 grain-overlay z-[100]"></div>
+  <header class="fixed top-0 w-full z-50 mix-blend-difference">
+    <nav class="flex justify-between items-center max-w-7xl mx-auto px-10 py-8">
+      <div class="text-xl font-headline italic text-accent-gold tracking-widest uppercase">
+        Demanda10x
+      </div>
+      <div class="hidden md:flex gap-12 items-center text-[10px] tracking-[0.3em] uppercase font-bold text-white/60">
+        <a class="hover:text-accent-gold transition-colors" href="#systems">01 System Analysis</a>
+        <a class="hover:text-accent-gold transition-colors" href="#engineering">02 The Arsenal</a>
+        <a class="hover:text-accent-gold transition-colors" href="#about">03 Intelligence</a>
+        <a class="ml-6 border-b border-accent-gold pb-1 text-accent-gold hover:text-white transition-colors" href="#">
+          Request Consultation
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      <div
+        class="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-noir-deep via-transparent to-noir-deep z-10">
+      </div>
+      <div class="max-w-7xl mx-auto w-full px-10 grid grid-cols-1 lg:grid-cols-12 gap-0 relative z-20">
+        <div class="lg:col-span-7 flex flex-col justify-center">
+          <div class="mb-6 flex items-center gap-4">
+            <div class="h-[1px] w-12 bg-accent-gold"></div>
+            <span class="text-accent-gold font-bold tracking-[0.5em] uppercase text-[10px]">Case File: Business
+              Engineering</span>
+          </div>
+          <h1 class="font-headline text-5xl md:text-8xl text-text-bright mb-10 leading-[0.95] italic">
+            Herbert Guimarães. <br />
+            <span class="not-italic text-accent-gold/90">Engenharia de Negócios.</span>
+          </h1>
+          <p
+            class="text-xl md:text-2xl text-text-muted max-w-xl mb-12 font-light leading-relaxed border-l border-white/10 pl-8">
+            Sistemas de Aquisição, Automação e Autoridade para quem cansou de amadorismo digital.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-8">
+            <a href="http://wa.me/5537999882157" target="_blank"
+              class="inline-block bg-accent-gold text-noir-deep px-12 py-5 text-xs font-bold tracking-[0.2em] uppercase hover:bg-white transition-all duration-500 shadow-2xl">
+              CONSTRUIR MINHA MÁQUINA DE VENDAS
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-5 relative mt-20 lg:mt-0">
+          <div class="relative z-10 cinematic-shadow border border-white/5 p-2 bg-noir-slate/40 backdrop-blur-sm">
+            <img alt="Professional portrait of Herbert Guimarães"
+              class="w-full grayscale opacity-70 hover:opacity-100 transition-opacity duration-1000"
+              src="herbert_perfil.jpg" />
+          </div>
+          <div class="absolute -bottom-10 -left-10 z-20 p-8 bg-accent-gold/90 text-noir-deep max-w-[280px]">
+            <p class="font-headline italic text-lg leading-tight">"O marketing sem engenharia é apenas barulho. O
+              sistema é o que escala."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-40 px-10 relative" id="systems">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col lg:flex-row gap-20 items-baseline mb-32">
+          <div class="lg:w-1/2">
+            <h2 class="font-headline text-5xl md:text-7xl text-text-bright italic mb-10">O Diagnóstico do Engenheiro
+            </h2>
+            <div class="w-40 h-[1px] bg-accent-gold mb-10"></div>
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-2xl text-text-muted leading-relaxed font-light italic">
+              A maioria dos negócios falha não por falta de esforço, mas por falha estrutural. Sem um sistema
+              previsível, você não tem uma empresa; você tem um emprego de alto estresse.
+            </p>
+            <span class="block mt-8 font-mono text-[10px] tracking-widest uppercase text-accent-gold/50">System
+              Integrity Assessment: Protocol 1.0</span>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-b border-white/5">
+          <div class="group p-16 border-r border-white/5 hover:bg-noir-slate transition-colors duration-700">
+            <span class="block font-headline text-accent-gold text-4xl italic mb-12">01</span>
+            <h3 class="font-headline text-3xl text-text-bright mb-6">Invisibilidade Digital</h3>
+            <p class="text-text-muted leading-relaxed mb-8 font-light">
+              Sua marca é um segredo bem guardado. Sem alcance estratégico, sua expertise é desperdiçada em um vácuo
+              digital.
+            </p>
+            <span class="material-symbols-outlined text-accent-gold opacity-30 text-5xl">visibility_off</span>
+          </div>
+          <div
+            class="group p-16 border-r border-white/5 hover:bg-noir-slate transition-colors duration-700 bg-noir-slate/20 stagger-item-2 cinematic-shadow">
+            <span class="block font-headline text-accent-gold text-4xl italic mb-12">02</span>
+            <h3 class="font-headline text-3xl text-text-bright mb-6">Vazamento de Leads</h3>
+            <p class="text-text-muted leading-relaxed mb-8 font-light">
+              Você gasta em tráfego, mas sua estrutura não retém. Cada lead perdido é um erro de engenharia no seu funil
+              de vendas.
+            </p>
+            <span class="material-symbols-outlined text-accent-gold opacity-30 text-5xl">leak_add</span>
+          </div>
+          <div class="group p-16 hover:bg-noir-slate transition-colors duration-700">
+            <span class="block font-headline text-accent-gold text-4xl italic mb-12">03</span>
+            <h3 class="font-headline text-3xl text-text-bright mb-6">Teto de Vidro</h3>
+            <p class="text-text-muted leading-relaxed mb-8 font-light">
+              Você atingiu o limite da sua capacidade operacional. Sem automação, o crescimento se torna seu pior
+              inimigo.
+            </p>
+            <span class="material-symbols-outlined text-accent-gold opacity-30 text-5xl">lock_open</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-40 px-10 bg-noir-slate" id="engineering">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col items-center mb-32 text-center">
+          <span class="text-accent-gold font-bold tracking-[0.5em] uppercase text-[10px] mb-6">Asset Catalog</span>
+          <h2 class="font-headline text-5xl md:text-8xl text-text-bright italic mb-6">O Arsenal de Soluções</h2>
+          <p class="text-text-muted max-w-2xl text-xl font-light">Durante o nosso Diagnóstico, eu vou identificar qual
+            dessas 4 engrenagens o seu negócio precisa destravar primeiro:</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          <div
+            class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
+            <div class="flex justify-between items-start mb-8 min-h-[80px]">
+              <h3 class="font-headline text-3xl text-text-bright italic pr-4">1. Engenharia de Aquisição</h3>
+              <span
+                class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">precision_manufacturing</span>
+            </div>
+            <p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Sistemas de
+              tráfego pago baseados em dados, não em palpites. Foco total em ROI e CPA previsível.</p>
+            <div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
+                <span class="material-symbols-outlined text-sm">circle</span>
+                <span>Output: Performance Dashboard</span>
+              </div>
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
+                <span class="material-symbols-outlined text-sm text-accent-gold">person</span>
+                <span>Profile: Scalable Business</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
+            <div class="flex justify-between items-start mb-8 min-h-[80px]">
+              <h3 class="font-headline text-3xl text-text-bright italic pr-4">2. Máquina de Vendas Local</h3>
+              <span
+                class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">location_on</span>
+            </div>
+            <p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Dominação da
+              região geográfica com presença digital ultra-segmentada para negócios físicos de alto ticket.</p>
+            <div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
+                <span class="material-symbols-outlined text-sm">circle</span>
+                <span>Output: Local Capture Engine</span>
+              </div>
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
+                <span class="material-symbols-outlined text-sm text-accent-gold">person</span>
+                <span>Profile: Business to sales</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
+            <div class="flex justify-between items-start mb-8 min-h-[80px]">
+              <h3 class="font-headline text-3xl text-text-bright italic pr-4">3. Consultoria 'Negócio Expert'</h3>
+              <span
+                class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">architecture</span>
+            </div>
+            <p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Análise 360 do
+              seu modelo de negócio para destravar gargalos de operação e precificação.</p>
+            <div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
+                <span class="material-symbols-outlined text-sm">circle</span>
+                <span>Output: One on One Strategic Plan</span>
+              </div>
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
+                <span class="material-symbols-outlined text-sm text-accent-gold">person</span>
+                <span>Profile: Mentors and Pro</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-noir-deep p-10 md:p-16 border border-white/5 relative group hover:border-accent-gold/30 transition-all duration-700 flex flex-col h-full">
+            <div class="flex justify-between items-start mb-8 min-h-[80px]">
+              <h3 class="font-headline text-3xl text-text-bright italic pr-4">4. Sistema de Autoridade</h3>
+              <span
+                class="material-symbols-outlined text-accent-gold/40 text-4xl group-hover:text-accent-gold transition-colors shrink-0">verified</span>
+            </div>
+            <p class="text-text-muted mb-12 leading-relaxed text-lg font-light flex-grow min-h-[100px]">Criação de
+              ecossistema de conteúdo e prova social que vende antes mesmo do primeiro contato.</p>
+            <div class="space-y-6 border-t border-white/5 pt-10 mt-auto">
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-accent-gold">
+                <span class="material-symbols-outlined text-sm">circle</span>
+                <span>Output: Omnichannel Strategy</span>
+              </div>
+              <div class="flex items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-white/40">
+                <span class="material-symbols-outlined text-sm text-accent-gold">person</span>
+                <span>Profile: Gold Professionals</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-40 px-10 relative overflow-hidden" id="about">
+      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-32 items-center">
+        <div class="lg:w-1/2 relative">
+          <div class="relative w-full aspect-[4/5]">
+            <!-- Terceira Foto (Fundo, Cima Direita) -->
+            <div
+              class="absolute top-[5%] right-[5%] w-[65%] aspect-[4/5] bg-noir-slate border border-white/5 p-2 md:p-3 rotate-[8deg] cinematic-shadow z-10 hover:z-40 transition-transform duration-700 hover:scale-105 hover:rotate-0">
+              <img alt="Engenharia de Negócios 3"
+                class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                src="herbert_atuando%202.jpg" />
+            </div>
+
+            <!-- Segunda Foto (Meio, Esquerda) -->
+            <div
+              class="absolute top-[20%] left-[0%] w-[65%] aspect-[4/5] bg-noir-slate border border-white/5 p-2 md:p-3 -rotate-[6deg] cinematic-shadow z-20 hover:z-40 transition-transform duration-700 hover:scale-105 hover:rotate-0">
+              <img alt="Engenharia de Negócios 2"
+                class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                src="herbert_atuando.jpg" />
+            </div>
+
+            <!-- Primeira Foto (Frente, Embaixo Centro) -->
+            <div
+              class="absolute bottom-[0%] left-[15%] w-[65%] aspect-[4/5] bg-noir-slate border border-white/5 p-2 md:p-3 rotate-[2deg] cinematic-shadow z-30 hover:z-40 transition-transform duration-700 hover:scale-105 hover:rotate-0">
+              <img alt="Engenharia de Negócios 1"
+                class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+                src="herbert_atuando%201.jpg" />
+            </div>
+          </div>
+          <div class="absolute -bottom-10 -right-10 flex flex-col gap-1 z-50">
+            <div class="bg-noir-deep border border-accent-gold/30 p-10 backdrop-blur-md">
+              <span class="block text-5xl font-headline italic text-accent-gold mb-2">+50</span>
+              <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-white/40">Projetos Liderados</span>
+            </div>
+            <div class="bg-noir-deep border border-accent-gold/30 p-10 backdrop-blur-md">
+              <span class="block text-5xl font-headline italic text-accent-gold mb-2">+10M</span>
+              <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-white/40">Faturamento Gerado</span>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/2">
+          <span class="text-accent-gold font-bold tracking-[0.5em] uppercase text-[10px] mb-8 block">The Architect
+            Briefing</span>
+          <h2 class="font-headline text-5xl md:text-7xl text-text-bright italic mb-12">Engenharia no DNA, Business na
+            Prática</h2>
+          <p class="text-xl text-text-muted leading-relaxed mb-10 font-light italic">
+            Com mais de 10 anos atuando como professor de Engenharia e Robótica, Herbert Guimarães transpôs a precisão
+            dos sistemas físicos para o caos do mercado digital.
+          </p>
+          <p class="text-xl text-text-muted leading-relaxed mb-16 font-light">
+            Ex-Gestor na Hotmart e consultor de negócios que somam múltiplos milhões em faturamento, sua abordagem
+            ignora "hacks" temporários em favor de estruturas perenes e lucrativas.
+          </p>
+          <div class="space-y-4">
+            <div class="flex items-center gap-6 group">
+              <div class="w-12 h-[1px] bg-accent-gold group-hover:w-20 transition-all"></div>
+              <span class="text-xs tracking-[0.3em] uppercase font-bold text-text-bright">10+ Anos Acadêmicos</span>
+            </div>
+            <div class="flex items-center gap-6 group">
+              <div class="w-12 h-[1px] bg-accent-gold group-hover:w-20 transition-all"></div>
+              <span class="text-xs tracking-[0.3em] uppercase font-bold text-text-bright">Ex-Gestor Hotmart
+                Strategy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-60 px-10 relative bg-noir-deep border-t border-white/5">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="font-headline text-5xl md:text-8xl text-text-bright italic mb-12">Pare de apagar incêndios e comece a
+          construir seu sistema.</h2>
+        <p class="text-2xl text-text-muted mb-20 font-light max-w-3xl mx-auto italic">
+          Sua empresa merece a solidez de um projeto de engenharia. Agende uma conversa diagnóstica agora.
+        </p>
+        <div class="flex flex-col items-center gap-12">
+          <a href="http://wa.me/5537999882157" target="_blank"
+            class="inline-block group relative px-20 py-8 overflow-hidden bg-accent-gold">
+            <span
+              class="relative z-10 text-noir-deep text-xs font-bold tracking-[0.4em] uppercase group-hover:text-noir-slate transition-colors">
+              QUERO CONSTRUIR MINHA MÁQUINA DE VENDAS
+            </span>
+            <div
+              class="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            </div>
+          </a>
+          <p
+            class="text-[10px] font-bold uppercase tracking-[0.5em] text-accent-gold/40 border-t border-accent-gold/20 pt-8 italic">
+            Confidential Access • Limited Availability</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-noir-deep py-20 px-10 border-t border-white/5">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-24">
+      <div>
+        <div class="text-2xl font-headline italic text-accent-gold mb-10">Demanda10x</div>
+        <p class="text-xs tracking-widest text-text-muted/50 leading-loose uppercase font-bold">
+          © 2024 Engineering Business Growth.<br />
+          Elevando negócios ao patamar de excelência estrutural.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-10">
+        <div class="flex flex-col gap-4 text-[10px] tracking-[0.3em] uppercase font-bold text-text-muted/40">
+          <a class="hover:text-accent-gold transition-colors" href="#">Privacy</a>
+          <a class="hover:text-accent-gold transition-colors" href="#">Terms</a>
+          <a class="hover:text-accent-gold transition-colors" href="#">Contact</a>
+        </div>
+        <div class="flex flex-col gap-4 text-[10px] tracking-[0.3em] uppercase font-bold text-text-muted/40">
+          <a class="hover:text-accent-gold transition-colors" href="#">LinkedIn</a>
+          <a class="hover:text-accent-gold transition-colors" href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="md:text-right flex flex-col md:items-end justify-between">
+        <span class="text-accent-gold font-headline italic text-lg block mb-8">Membro de Elite</span>
+        <div class="flex gap-1">
+          <div class="w-16 h-[2px] bg-accent-gold/30"></div>
+          <div class="w-8 h-[2px] bg-accent-gold"></div>
+        </div>
+      </div>
     </div>
-</div>
-<div class="absolute -bottom-10 -right-10 flex flex-col gap-1 z-50">
-<div class="bg-noir-deep border border-accent-gold/30 p-10 backdrop-blur-md">
-<span class="block text-5xl font-headline italic text-accent-gold mb-2">+50</span>
-<span class="text-[10px] font-bold uppercase tracking-[0.3em] text-white/40">Projetos Liderados</span>
-</div>
-<div class="bg-noir-deep border border-accent-gold/30 p-10 backdrop-blur-md">
-<span class="block text-5xl font-headline italic text-accent-gold mb-2">+10M</span>
-<span class="text-[10px] font-bold uppercase tracking-[0.3em] text-white/40">Faturamento Gerado</span>
-</div>
-</div>
-</div>
-<div class="lg:w-1/2">
-<span class="text-accent-gold font-bold tracking-[0.5em] uppercase text-[10px] mb-8 block">The Architect Briefing</span>
-<h2 class="font-headline text-5xl md:text-7xl text-text-bright italic mb-12">Engenharia no DNA, Business na Prática</h2>
-<p class="text-xl text-text-muted leading-relaxed mb-10 font-light italic">
-                        Com mais de 10 anos atuando como professor de Engenharia e Robótica, Herbert Guimarães transpôs a precisão dos sistemas físicos para o caos do mercado digital.
-                    </p>
-<p class="text-xl text-text-muted leading-relaxed mb-16 font-light">
-                        Ex-Gestor na Hotmart e consultor de negócios que somam múltiplos milhões em faturamento, sua abordagem ignora "hacks" temporários em favor de estruturas perenes e lucrativas.
-                    </p>
-<div class="space-y-4">
-<div class="flex items-center gap-6 group">
-<div class="w-12 h-[1px] bg-accent-gold group-hover:w-20 transition-all"></div>
-<span class="text-xs tracking-[0.3em] uppercase font-bold text-text-bright">10+ Anos Acadêmicos</span>
-</div>
-<div class="flex items-center gap-6 group">
-<div class="w-12 h-[1px] bg-accent-gold group-hover:w-20 transition-all"></div>
-<span class="text-xs tracking-[0.3em] uppercase font-bold text-text-bright">Ex-Gestor Hotmart Strategy</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-60 px-10 relative bg-noir-deep border-t border-white/5">
-<div class="max-w-5xl mx-auto text-center">
-<h2 class="font-headline text-5xl md:text-8xl text-text-bright italic mb-12">Pare de apagar incêndios e comece a construir seu sistema.</h2>
-<p class="text-2xl text-text-muted mb-20 font-light max-w-3xl mx-auto italic">
-                    Sua empresa merece a solidez de um projeto de engenharia. Agende uma conversa diagnóstica agora.
-                </p>
-<div class="flex flex-col items-center gap-12">
-<a href="http://wa.me/5537999882157" target="_blank" class="inline-block group relative px-20 py-8 overflow-hidden bg-accent-gold">
-<span class="relative z-10 text-noir-deep text-xs font-bold tracking-[0.4em] uppercase group-hover:text-noir-slate transition-colors">
-                            QUERO CONSTRUIR MINHA MÁQUINA DE VENDAS
-                        </span>
-<div class="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
-</a>
-<p class="text-[10px] font-bold uppercase tracking-[0.5em] text-accent-gold/40 border-t border-accent-gold/20 pt-8 italic">Confidential Access • Limited Availability</p>
-</div>
-</div>
-</section>
-</main>
-<footer class="bg-noir-deep py-20 px-10 border-t border-white/5">
-<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-24">
-<div>
-<div class="text-2xl font-headline italic text-accent-gold mb-10">Demanda10x</div>
-<p class="text-xs tracking-widest text-text-muted/50 leading-loose uppercase font-bold">
-                    © 2024 Engineering Business Growth.<br/>
-                    Elevando negócios ao patamar de excelência estrutural.
-                </p>
-</div>
-<div class="grid grid-cols-2 gap-10">
-<div class="flex flex-col gap-4 text-[10px] tracking-[0.3em] uppercase font-bold text-text-muted/40">
-<a class="hover:text-accent-gold transition-colors" href="#">Privacy</a>
-<a class="hover:text-accent-gold transition-colors" href="#">Terms</a>
-<a class="hover:text-accent-gold transition-colors" href="#">Contact</a>
-</div>
-<div class="flex flex-col gap-4 text-[10px] tracking-[0.3em] uppercase font-bold text-text-muted/40">
-<a class="hover:text-accent-gold transition-colors" href="#">LinkedIn</a>
-<a class="hover:text-accent-gold transition-colors" href="#">Instagram</a>
-</div>
-</div>
-<div class="md:text-right flex flex-col md:items-end justify-between">
-<span class="text-accent-gold font-headline italic text-lg block mb-8">Membro de Elite</span>
-<div class="flex gap-1">
-<div class="w-16 h-[2px] bg-accent-gold/30"></div>
-<div class="w-8 h-[2px] bg-accent-gold"></div>
-</div>
-</div>
-</div>
-</footer>
-</body></html>
+  </footer>
+</body>
+
+</html>
